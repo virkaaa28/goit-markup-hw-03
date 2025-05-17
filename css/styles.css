@@ -1,0 +1,209 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #2e2f42;
+    background-color: #ffffff;
+}
+.header {
+    background-color: #ffffff;
+    align-items: center;
+
+    
+}
+.logo-blue {
+    color: #4d5ae5;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+}
+.logo-black {
+    color: #2E2F42;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline;
+    font-size: 18px;    
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+}
+.logo {
+    text-decoration: none;
+}
+nav {
+    display: flex;
+
+}
+nav a {
+    text-decoration: none;
+    color: #2e2f42;
+    font-weight: 500;
+    font-size: 16px;
+}
+.nav-link-studio, .nav-link-port, .nav-link-contacts {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.nav-link-studio:hover, .nav-link-port:hover, .nav-link-contacts:hover {color: #404bbf;
+}
+.nav-link-studio:active {
+    color: #404bbf;
+}
+.contact-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: #2E2F42;
+}
+.contact-link:hover {
+    color: #404BBF;
+}
+.blue-parts {
+    background-color: #2e2f42;
+    text-align: center;    
+}
+.blue-part-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 107%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #ffffff;
+}
+.blue-part-button {
+    border-radius: 4px;
+    width: 169px;
+    height: 56px;
+    background-color: #4d5ae5 ;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+.blue-part-button:hover {
+    background-color: #404BBF;
+}
+.value {
+    background-color: #ffffff;
+    color: #2E2F42;
+    text-align: left;
+}
+.value-title {
+    display: none;
+}
+.value-item, .value-item,.value-item,.value-item {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.value-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.team {
+    background-color: #f4f4fd;
+}
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42 ;
+}
+.team-item {
+    background-color: #ffffff;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    width: 264px;
+    height: 380px;
+}
+.team-member {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+}
+.team-role {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+.portfolio {
+    background-color: #ffffff;
+}
+.portfolio-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+}
+.portfolio-item {
+    width: 360px;
+    height: 420px; 
+    background-color:#ffffff ;
+    border: 1px solid #e7e9fc;
+}
+.portfolio-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #2E2F42;   
+}
+.portfolio-type {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455 ;   
+}
+ul {
+    list-style: none;
+}
+.footer {
+    width: 1440px;
+    height: 312px;
+    background-color: #2E2F42;
+}
+.logo-white {
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+}
+.logo-footer {
+    width: 115px;
+    height: 24px;
+    text-decoration: none;
+}
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #ffffff; 
+}
