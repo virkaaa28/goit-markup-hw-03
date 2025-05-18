@@ -48,8 +48,10 @@ nav a {
     color: #404bbf;
 }
 .address-contact {
-    font-style: normal;
     color: #434455;
+}
+address {
+    font-style: normal;
 }
 .contact-link {
     font-weight: 400;
