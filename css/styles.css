@@ -5,7 +5,6 @@ body {
 }
 .header {
     background-color: #ffffff;
-    align-items: center;
 }
 .logo-black {
     color: #2E2F42;
@@ -15,16 +14,12 @@ body {
     font-family: "Raleway", sans-serif;
     text-decoration: none;
     text-transform: uppercase;
-    display: inline;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: #4d5ae5;
 }
-nav {
-    display: flex;
 
-}
 nav a {
     text-decoration: none;
     color: #2e2f42;
@@ -82,9 +77,6 @@ address {
 }
 .blue-part-button {
     font-family: "Roboto", sans-serif;
-    border-radius: 4px;
-    width: 169px;
-    height: 56px;
     background-color: #4d5ae5 ;
     color: #ffffff;
     font-weight: 500;
@@ -104,9 +96,7 @@ address {
     color: #2E2F42;
     text-align: left;
 }
-.value-title {
-    display: none;
-}
+
 .value-item, .value-item,.value-item,.value-item {
     font-weight: 500;
     font-size: 20px;
@@ -135,11 +125,6 @@ address {
 }
 .team-item {
     background-color: #ffffff;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
-    width: 264px;
-    height: 380px;
 }
 .team-member {
     font-weight: 500;
@@ -170,8 +155,6 @@ address {
     color: #2E2F42;
 }
 .portfolio-item {
-    width: 360px;
-    height: 420px; 
     background-color:#ffffff ;
     border: 1px solid #e7e9fc;
 }
@@ -193,13 +176,11 @@ ul {
     list-style: none;
 }
 .footer {
-    width: 1440px;
-    height: 312px;
     background-color: #2E2F42;
 }
 .logo-white {
     color: #f4f4fd;
-    display: inline;
+
     
 }
 .logo-footer {
@@ -209,8 +190,6 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    width: 115px;
-    height: 24px;
     text-decoration: none;
     line-height: 1.17;
 }
