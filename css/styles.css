@@ -12,12 +12,14 @@ body {
     line-height: 1.5;
     font-size: 16px;
 }
-
+img {
+    display: block;
+}
 
 .container {
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 15px 0 15px;
 }
 
 
@@ -43,6 +45,7 @@ body {
 
 .logo-black {
     color: #2e2f42;
+    margin-right: 76px;
 }
 
 
@@ -62,6 +65,7 @@ body {
     color: #2e2f42;
     text-decoration: none;
     font-weight: 500;
+    padding: 24px 0;
 }
 
 .nav-link:hover,
@@ -98,22 +102,29 @@ body {
 }
 
 .hero-title {
+    max-width: 496px;
+    margin: 0 auto 48px auto;
+    color: #ffffff;
     font-size: 56px;
     font-weight: 700;
-    margin-bottom: 48px;
-}
+    line-height: 1.07;
+    letter-spacing: 0.02em; }
 
-.hero-button {
-    font-family: inherit;
-    font-size: 16px;
-    font-weight: 500;
-    padding: 16px 32px;
-    background-color: #4d5ae5;
-    color: #ffffff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
+        .hero-button {
+            display: block;
+            min-width: 169px;
+            height: 56px;
+            border: none;
+            background-color: var(--iris, #4d5ae5);
+            border-radius: 4px;
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            margin: 0 auto;
+            cursor: pointer;
+            transition: background-color 250ms ease-in-out;     }
 
 .hero-button:hover,
 .hero-button:focus {
@@ -192,7 +203,8 @@ body {
 
 
 .portfolio-section {
-    padding: 120px 0;
+    padding: 120px;
+    padding-bottom: 120px;
 }
 
 .portfolio-title {
@@ -209,19 +221,23 @@ body {
     flex-wrap: wrap;
     gap: 24px;
     justify-content: center;
+    row-gap: 48px;
+    list-style: none;
 }
 
 .portfolio-item {
-    width: 360px;
-    border: 1px solid #e7e9fc;
-    background-color: #ffffff;
-}
+    width: calc((100% - 48px) / 3); }
 
 .portfolio-item img {
     display: block;
     width: 100%;
     height: auto;
 }
+
+.portfolio-content {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none; }
 
 .portfolio-name {
     font-size: 20px;
