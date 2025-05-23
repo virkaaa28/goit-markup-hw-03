@@ -125,6 +125,7 @@ address {
 }
 .team-item {
     background-color: #ffffff;
+    height: 264px;
 }
 .team-member {
     font-weight: 500;
