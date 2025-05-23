@@ -17,15 +17,14 @@ img {
 }
 
 .container {
-    width: 1158px;
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
-}
+    margin-left: auto;
+    margin-right: auto;
+  
+    padding: 0 15px; }
 
 .header {
     border-bottom: 1px solid #e7e9fc;
-    background-color: #ffffff;
+  
 }
 
 .container-header {
@@ -205,9 +204,12 @@ img {
 
 .portfolio-section {
    padding-top: 120px;
-   padding-bottom: 120px;
+   padding-bottom: 120pxs;
 }
-
+.portfolio-content {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+}
 .portfolio-title {
     font-size: 36px;
     font-weight: 700;
